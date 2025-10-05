@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/Nasa%20icon-B7dLqT-0.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>terra-project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-C5WIJLl-.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Cz1QLpGI.css">
+</head>
+
+<body>
+    <header>
+        <img src="/assets/Nasa%20icon-B7dLqT-0.jpg" alt="NASA Logo" width="100">
+        <h1>NASA Terra Project</h1>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+        </ul>
+        <ul>
+            <li><a href="#Visualizations-year">Visualizations</a></li>
+        </ul>
+        <ul>
+            <li><a href="#About">About</a></li>
+        </ul>
+    </header>
+    <div id="container">
+        <div id="text-section">
+            <img src="/assets/Screenshot%202025-10-04%20145940-DmXV5gWz.png" alt="">
+            <h6 id="Home">NASA SPACE APPS</h6>
+            <h1>TERRA</h1>
+            <p>🌍 To celebrate the 25th anniversary of NASA’s Terra satellite — the agency’s oldest daily Earth-observing mission —
+            this project highlights the power of Terra’s rich and diverse datasets. With five instruments operating simultaneously
+            for over 9,000 days, Terra has captured more than just stunning imagery of our planet; it has revealed insights into
+            Earth’s energy, atmosphere, pollution, hurricanes, and urban growth.
+            
+            The challenge is to use data from any of Terra’s instruments to create an animated visualization that tells an Earth
+            science story and shows its impact on people, communities, or the environment. Whether through 2D or 3D animations, the
+            goal is to bring Terra’s data to life and reveal the dynamic processes shaping our world. ✨</p>
+        </div>
+
+        <div id="globe-section">
+            <canvas id="myCanvas"></canvas>
+        </div>
+    </div>
+    <div id="container2">
+        <aside>
+            <p>
+                📅 Select a <strong>Year</strong> and <strong>Month</strong>, then click <strong>Submit</strong> to view a
+                <span class="highlight">thermal visualization</span> of Earth for that time period.
+                The displayed image represents <span class="highlight">global surface temperature patterns</span>
+                detected by NASA's Terra satellite.
+                Hotter regions will appear with brighter colors, while cooler areas will appear darker — giving you a clear
+                snapshot of how Earth’s temperature changes over time. 🌍🔥
+            </p>
+        </aside>
+        <div id="para-section">
+        <p>Year</p>
+        <p>Month</p>
+        </div>
+        <div id="Dates-section">
+    
+            <select name="" id="Visualizations-year">
+                <option selected value="2025">2025</option>
+                <option value="2024">2024</option>
+            </select>
+        <select id="Visualizations-month">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+            <button id="button-map">Submit</button>
+        </div>
+        </div>
+        <p id="targetSection">t</p>
+    </div>
+    <div id="Explanation-box">
+        <h1 id="Explanation-box-h1"></h1>
+        <h3 id="Explanation-box-h3"></h3>
+    </div>
+    <div id="Visualizations-map">
+        <canvas id="myCanvas2"></canvas>
+    </div>
+    <div id="Explanation-box1">
+        <h1 id="Explanation-box1-h1">The difference between the two groups from the year 2000 and the chosen time</h1>
+    </div>
+    <div id="Visualizations2-map">
+        <canvas id="myCanvas3"></canvas>
+    </div>
+<footer
+    style="background-color:#000000; color:white; padding:20px; text-align:center; font-family: 'Roboto', sans-serif;">
+    <div class="footer-container" style="display:flex; justify-content: space-around; flex-wrap:wrap;">
+        <div class="team">
+            <h3>Project Team</h3>
+            <ul style="list-style:none; padding:0;">
+                <li>Yanal Abed</li>
+                <hr style="border-color:white;">
+                <li>Omar Abu Jarboush</li>
+                <hr style="border-color:white;">
+                <li>Bassel Rashdan</li>
+                <hr style="border-color:white;">
+                <li>Mohammed Hanandeh</li>
+                <hr style="border-color:white;">
+                <li>Saif Kharashqa</li>
+                <hr style="border-color:white;">
+                <li>Osama Abu Awad</li>
+            </ul>
+        </div>
+
+        <div class="sources">
+            <h3>Data Sources & References</h3>
+            <ul style="list-style:none; padding:0;">
+                <li><a href="https://terra.nasa.gov/" target="_blank" style="color:white; text-decoration:none;">NASA
+                        Terra Satellite</a></li>
+                <li><a href="https://earthdata.nasa.gov/" target="_blank"
+                        style="color:white; text-decoration:none;">NASA Earth Data</a></li>
+                <li><a href="https://visibleearth.nasa.gov/" target="_blank"
+                        style="color:white; text-decoration:none;">NASA Visible Earth</a></li>
+                <li><a href="https://www.nasa.gov/" target="_blank" style="color:white; text-decoration:none;">NASA
+                        Official Site</a></li>
+            </ul>
+        </div>
+    </div>
+    <p style="margin-top:20px;">© 2025 NASA Terra Project. All rights reserved.</p>
+</footer>
+
+
+</body>
+
+</html>
